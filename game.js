@@ -25,10 +25,17 @@ function setCamera(cam) {
 }
 
 function updateCamera() {
+  // Se o animatrônico estiver nessa câmera
   if (animatronicPos === currentCamera) {
-    camImg.src = "Imagem_do_personagem_Pintinho_Amarelinho.webp";
-  } else {
-    camImg.src = `images/cam${currentCamera}.png`;
+    camImg.src = "images/Imagem_do_personagem_Pintinho_Amarelinho.webp";
+    return;
+  }
+
+  // Câmeras normais
+  if (currentCamera === 1) {
+    camImg.src = "images/Lefthall.webp";
+  } else if (currentCamera === 2) {
+    camImg.src = "images/Rigthhall.webp";
   }
 }
 

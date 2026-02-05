@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>FNAF Clone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="hud">
+  <span>Energia: <span id="energy">100</span>%</span>
+</div>
+
+<div id="office">
+  <button id="doorBtn">Porta: Aberta</button>
+</div>
+
+<div id="cameraPanel">
+  <button onclick="setCamera(1)">Cam 1</button>
+  <button onclick="setCamera(2)">Cam 2</button>
+</div>
+
+<div id="cameraView">
+  <img id="cameraImage" src="images/cam1.png">
+</div>
+
+<div id="gameOver" class="hidden">
+  <img src="images/jumpscare.png">
+  <h1>GAME OVER</h1>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

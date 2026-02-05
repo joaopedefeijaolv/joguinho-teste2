@@ -26,7 +26,7 @@ function setCamera(cam) {
 
 function updateCamera() {
   if (animatronicPos === currentCamera) {
-    camImg.src = "images/animatronic.png";
+    camImg.src = "Imagem_do_personagem_Pintinho_Amarelinho.webp";
   } else {
     camImg.src = `images/cam${currentCamera}.png`;
   }

@@ -33,9 +33,9 @@ function updateCamera() {
 
   // Câmeras normais
   if (currentCamera === 1) {
-    camImg.src = "images/Lefthall.webp";
+    camImg.src = "images/file_00000000ec4c71f5b3611d505174c5eb.png";
   } else if (currentCamera === 2) {
-    camImg.src = "images/Rigthhall.webp";
+    camImg.src = "images/file_00000000ec4c71f5b3611d505174c5eb.png";
   }
 }
 

@@ -1,0 +1,33 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+#hud {
+  margin: 10px;
+}
+
+#office {
+  margin: 10px;
+}
+
+#cameraView img {
+  width: 300px;
+  border: 2px solid white;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#gameOver img {
+  width: 300px;
+}

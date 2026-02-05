@@ -62,20 +62,19 @@ setInterval(() => {
 setInterval(() => {
   if (!gameRunning) return;
 
-  if (Math.random() < 0.5) {
+  if (Math.random() < 0.3) { // menos chance de andar
     animatronicPos++;
 
     if (animatronicPos > 2) {
-      // chegou na porta
       if (!doorClosed) {
         gameOver();
       } else {
-        animatronicPos = 1; // recua
+        animatronicPos = 2; // recua só um pouco
       }
     }
     updateCamera();
   }
-}, 4000);
+}, 7000); // anda a cada 7 segundos
 
 // Game Over
 function gameOver() {
